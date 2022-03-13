@@ -1,0 +1,40 @@
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #c0c0c0;
+  color: black;
+  padding: 0.75rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #8b8b8b;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

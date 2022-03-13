@@ -1,0 +1,18 @@
+.input {
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input label {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .input input {
+    width: 30rem;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font: inherit;
+    padding-left: 0.5rem;
+  }

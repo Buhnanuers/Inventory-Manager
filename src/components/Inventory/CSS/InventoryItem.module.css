@@ -1,0 +1,56 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.item h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.quantity {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.arrival_date {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.shipping_date {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.actions {
+  text-align: right;
+}
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions .button--edit_button {
+  background-color: rgb(100, 100, 255);
+}
+
+.actions .button--remove_button {
+  background-color: hsl(0, 100%, 72%);
+}
